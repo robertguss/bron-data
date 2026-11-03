@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use these texts, translations or alignments, please cite them as below and, for a specific passage, use the pinned permalink shown by 'cite this'."
+title: "Bron data: Reformed and neo-Calvinist primary sources with aligned translations"
+type: dataset
+authors:
+  - family-names: Guss
+    given-names: Robert
+  - name: "Bron contributors"
+repository-code: "https://github.com/robertguss/bron-data"
+license: "CC-BY-4.0"
+abstract: "TEI transcriptions of public-domain Reformed and neo-Calvinist sources (public domain / CC0), with Bron's aligned English translations, lexicon, alignments and provenance (CC BY 4.0). Transcribed works remain in the public domain."
+keywords:
+  - Bavinck
+  - Reformed theology
+  - neo-Calvinism
+  - TEI
+  - digital humanities
