@@ -100,7 +100,9 @@ terms:
   - site: theologienet.nl (Stichting Gihonbron)
     terms_url: https://theologienet.nl/over-ons/
     checked_on: 2026-11-04
-    status: pending
+    status: confirmed
+    confirmed_by: Robert Guss
+    confirmed_on: 2026-11-04
     summary: >-
       No terms of use or licence page was found; the "Over ons" page is the only statement.
       It says the site belongs to Stichting Gihonbron, which obtains its documents from
