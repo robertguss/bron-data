@@ -1,0 +1,27 @@
+name: Validate
+
+# Every pull request and every push to main runs bron's checks, compares citations with the
+# base commit, and verifies the DTS resolver. A change that would break a citation cannot merge.
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          # Full history, so the base commit is in the checkout.
+          fetch-depth: 0
+      # The one pin of bron. Bumping it is its own deliberate pull request.
+      - uses: robertguss/bron/.github/actions/validate-data@a410995c5ae161737902a0895b2337c0f27ccccc
+        with:
+          # A pull request compares with its base branch tip, which branch protection keeps
+          # current; a push compares with the commit before it.
+          base-ref: ${{ github.event_name == 'pull_request' && github.event.pull_request.base.sha || github.event.before }}
