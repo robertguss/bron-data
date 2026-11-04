@@ -134,3 +134,131 @@ sources:
       Scan of the printed volume, one PDF, downloaded 2026-11-04. GD¹ page breaks link to its
       pages; nothing from DBNL is copied or redistributed (ADR 0016). DBNL's site terms,
       including its database right, are in terms.yaml. Public domain: Bavinck died in 1921, so the EU term ended on 1 January 1992, and the volume was published before 1931, which makes it public domain in the US.
+  - id: gd2-vol1-delpher
+    work: urn:cts:bron:bavinck.gd
+    holder: Delpher (Koninklijke Bibliotheek), copy of the Vrije Universiteit Amsterdam
+    holder_id: MMUBVU05:000000743
+    edition: 2de druk (GD², 1906–1911), "Tweede herziene en vermeerderde druk"
+    printing: Kampen, J. H. Bos, 1906 (deel 1)
+    rights: https://creativecommons.org/publicdomain/mark/1.0/
+    url: https://resolver.kb.nl/resolve?urn=MMUBVU05:000000743
+    notes: >-
+      Scans of the printed volume, 686 scans, digitised 2011 for the VU project (mmubvu05),
+      with Delpher's own OCR as ALTO per page (ABBYY FineReader 10, 2013, checked on vol. 1).
+      Printing and year read from the title page, 2026-11-04. No single file, so no hash: the
+      page images and ALTO Bron fetches are hashed in the OCR sample's manifest. Delpher also
+      holds this volume's third printing ("derde onveranderde uitgave", Kok, 1918) as
+      MMUBVU05:000000768; Bron does not use it. Delpher's site terms, including its database right and its
+      bar on redistribution, are in terms.yaml. Public domain: Bavinck died in 1921, so the EU term ended on 1 January 1992, and the volume was published before 1931, which makes it public domain in the US.
+  - id: gd2-vol2-delpher
+    work: urn:cts:bron:bavinck.gd
+    holder: Delpher (Koninklijke Bibliotheek), copy of the Vrije Universiteit Amsterdam
+    holder_id: MMUBVU05:000000817
+    edition: 2de druk (GD², 1906–1911), "Tweede herziene en vermeerderde druk"
+    printing: Kampen, J. H. Bos, 1908 (deel 2)
+    rights: https://creativecommons.org/publicdomain/mark/1.0/
+    url: https://resolver.kb.nl/resolve?urn=MMUBVU05:000000817
+    notes: >-
+      Scans of the printed volume, 688 scans, digitised 2011 for the VU project (mmubvu05),
+      with Delpher's own OCR as ALTO per page (ABBYY FineReader 10, 2013, checked on vol. 1).
+      Printing and year read from the title page, 2026-11-04. No single file, so no hash: the
+      page images and ALTO Bron fetches are hashed in the OCR sample's manifest. Delpher also
+      holds this volume's third printing ("derde onveranderde uitgave", Kok, 1918) as
+      MMUBVU05:000000821; Bron does not use it. Delpher's site terms, including its database right and its
+      bar on redistribution, are in terms.yaml. Public domain: Bavinck died in 1921, so the EU term ended on 1 January 1992, and the volume was published before 1931, which makes it public domain in the US.
+  - id: gd2-vol3-delpher
+    work: urn:cts:bron:bavinck.gd
+    holder: Delpher (Koninklijke Bibliotheek), copy of the Vrije Universiteit Amsterdam
+    holder_id: MMUBVU05:000000818
+    edition: 2de druk (GD², 1906–1911), "Tweede herziene en vermeerderde druk"
+    printing: Kampen, J. H. Kok, 1910 (deel 3)
+    rights: https://creativecommons.org/publicdomain/mark/1.0/
+    url: https://resolver.kb.nl/resolve?urn=MMUBVU05:000000818
+    notes: >-
+      Scans of the printed volume, 704 scans, digitised 2011 for the VU project (mmubvu05),
+      with Delpher's own OCR as ALTO per page (ABBYY FineReader 10, 2013, checked on vol. 1).
+      Printing and year read from the title page, 2026-11-04. No single file, so no hash: the
+      page images and ALTO Bron fetches are hashed in the OCR sample's manifest. Delpher also
+      holds this volume's third printing ("derde onveranderde uitgave", Kok, 1918) as
+      MMUBVU05:000000822; Bron does not use it. Delpher's site terms, including its database right and its
+      bar on redistribution, are in terms.yaml. Public domain: Bavinck died in 1921, so the EU term ended on 1 January 1992, and the volume was published before 1931, which makes it public domain in the US.
+  - id: gd2-vol4-delpher
+    work: urn:cts:bron:bavinck.gd
+    holder: Delpher (Koninklijke Bibliotheek), copy of the Vrije Universiteit Amsterdam
+    holder_id: MMUBVU05:000000819
+    edition: 2de druk (GD², 1906–1911), "Tweede herziene en vermeerderde druk"
+    printing: Kampen, J. H. Kok, 1911 (deel 4)
+    rights: https://creativecommons.org/publicdomain/mark/1.0/
+    url: https://resolver.kb.nl/resolve?urn=MMUBVU05:000000819
+    notes: >-
+      Scans of the printed volume, 882 scans, digitised 2011 for the VU project (mmubvu05),
+      with Delpher's own OCR as ALTO per page (ABBYY FineReader 10, 2013, checked on vol. 1).
+      Printing and year read from the title page, 2026-11-04. No single file, so no hash: the
+      page images and ALTO Bron fetches are hashed in the OCR sample's manifest. Delpher also
+      holds this volume's third printing ("derde onveranderde uitgave", Kok, 1918) as
+      MMUBVU05:000000823; Bron does not use it. Delpher's site terms, including its database right and its
+      bar on redistribution, are in terms.yaml. Public domain: Bavinck died in 1921, so the EU term ended on 1 January 1992, and the volume was published before 1931, which makes it public domain in the US.
+  - id: gd2-vol1-theologienet
+    work: urn:cts:bron:bavinck.gd
+    holder: theologienet.nl (Stichting Gihonbron)
+    holder_id: bavinck-h-gereformeerde-dogmatiek-i.pdf
+    edition: 2de druk (GD², 1906–1911), fourth printing
+    printing: Vierde onveranderde druk, Kampen, J. H. Kok, 1928 (deel 1)
+    rights: https://creativecommons.org/publicdomain/mark/1.0/
+    url: https://theologienet.nl/bestanden/bavinck-h-gereformeerde-dogmatiek-i.pdf
+    sha256: bbadbd088baf0b87ef3bdc23fff5880689ff51cf0fb2b2793bb31593e216ce43
+    notes: >-
+      Scan of the printed volume with a text layer, one PDF of 298 pages, downloaded
+      2026-11-04. Each PDF page is a two-page spread: one image of about 1882×1444 px per spread, so about 940 px across each book page. Text layer made by "Acrobat Pro
+      2017 17 Paper Capture Plug-in" (PDF metadata, June 2018). The title page reads "vierde
+      onveranderde druk" and names no editor. Who scanned it is not stated, so it is never the
+      base text (Bron docs/transcription.md); it serves the fourth printing's pagination and the
+      OCR sample test. theologienet's site terms are in terms.yaml. Public domain: Bavinck died in 1921, so the EU term ended on 1 January 1992, and the volume was published before 1931, which makes it public domain in the US.
+  - id: gd2-vol2-theologienet
+    work: urn:cts:bron:bavinck.gd
+    holder: theologienet.nl (Stichting Gihonbron)
+    holder_id: bavinck-h-gereformeerde-dogmatiek-ii.pdf
+    edition: 2de druk (GD², 1906–1911), fourth printing
+    printing: Vierde onveranderde druk, Kampen, J. H. Kok, 1928 (deel 2)
+    rights: https://creativecommons.org/publicdomain/mark/1.0/
+    url: https://theologienet.nl/bestanden/bavinck-h-gereformeerde-dogmatiek-ii.pdf
+    sha256: e1f5071d391abaa0bba49570e66be9fbfd85d1f9a69307cbd215ca6fdd4d49fa
+    notes: >-
+      Scan of the printed volume with a text layer, one PDF of 293 pages, downloaded
+      2026-11-04. Each PDF page is a two-page spread: two stacked image layers of 1254×952 px per spread, so about 630 px across each book page. Text layer made by "Acrobat Pro
+      2017 17 Paper Capture Plug-in" (PDF metadata, June 2018). The title page reads "vierde
+      onveranderde druk" and names no editor. Who scanned it is not stated, so it is never the
+      base text (Bron docs/transcription.md); it serves the fourth printing's pagination and the
+      OCR sample test. theologienet's site terms are in terms.yaml. Public domain: Bavinck died in 1921, so the EU term ended on 1 January 1992, and the volume was published before 1931, which makes it public domain in the US.
+  - id: gd2-vol3-theologienet
+    work: urn:cts:bron:bavinck.gd
+    holder: theologienet.nl (Stichting Gihonbron)
+    holder_id: bavinck-h-gereformeerde-dogmatiek-iii.pdf
+    edition: 2de druk (GD², 1906–1911), fourth printing
+    printing: Vierde onveranderde druk, Kampen, J. H. Kok N.V., 1929 (deel 3)
+    rights: https://creativecommons.org/publicdomain/mark/1.0/
+    url: https://theologienet.nl/bestanden/bavinck-h-gereformeerde-dogmatiek-iii.pdf
+    sha256: 791e1415b7bd447b1b83933d4d7d15644cb62140155892e4a62294b55b83f809
+    notes: >-
+      Scan of the printed volume with a text layer, one PDF of 305 pages, downloaded
+      2026-11-04. Each PDF page is a two-page spread: two stacked image layers of 1239×947 px per spread, so about 620 px across each book page. Text layer made by "Acrobat Pro
+      2017 17 Paper Capture Plug-in" (PDF metadata, June 2018). The title page reads "vierde
+      onveranderde druk" and names no editor. Who scanned it is not stated, so it is never the
+      base text (Bron docs/transcription.md); it serves the fourth printing's pagination and the
+      OCR sample test. theologienet's site terms are in terms.yaml. Public domain: Bavinck died in 1921, so the EU term ended on 1 January 1992, and the volume was published before 1931, which makes it public domain in the US.
+  - id: gd2-vol4-theologienet
+    work: urn:cts:bron:bavinck.gd
+    holder: theologienet.nl (Stichting Gihonbron)
+    holder_id: bavinck-h-gereformeerde-dogmatiek-iv.pdf
+    edition: 2de druk (GD², 1906–1911), fourth printing
+    printing: Vierde onveranderde druk, Kampen, J. H. Kok N.V., 1930 (deel 4)
+    rights: https://creativecommons.org/publicdomain/mark/1.0/
+    url: https://theologienet.nl/bestanden/bavinck-h-gereformeerde-dogmatiek-iv.pdf
+    sha256: 0b28dab9650e0b9d89ea592201d17006468c490fe98f48fa8e4b51232ea46e1b
+    notes: >-
+      Scan of the printed volume with a text layer, one PDF of 381 pages, downloaded
+      2026-11-04. Each PDF page is a two-page spread: two stacked image layers of 1210×952 px per spread, so about 600 px across each book page. Text layer made by "Acrobat Pro
+      2017 17 Paper Capture Plug-in" (PDF metadata, June 2018). The title page reads "vierde
+      onveranderde druk" and names no editor. Who scanned it is not stated, so it is never the
+      base text (Bron docs/transcription.md); it serves the fourth printing's pagination and the
+      OCR sample test. theologienet's site terms are in terms.yaml. Public domain: Bavinck died in 1921, so the EU term ended on 1 January 1992, and the volume was published before 1931, which makes it public domain in the US.

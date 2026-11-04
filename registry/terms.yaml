@@ -96,3 +96,21 @@ terms:
       transcribed. Bron copies no NRI text or scan. Absence of terms is not permission: any
       reuse of the NRI's own transcriptions or scans would need asking first, which ADR 0013
       holds until the thin slice is public.
+
+  - site: theologienet.nl (Stichting Gihonbron)
+    terms_url: https://theologienet.nl/over-ons/
+    checked_on: 2026-11-04
+    status: pending
+    summary: >-
+      No terms of use or licence page was found; the "Over ons" page is the only statement.
+      It says the site belongs to Stichting Gihonbron, which obtains its documents from
+      volunteers who make them freely available: "Alle documenten op de site zijn gratis te
+      downloaden. Het betreft documenten waarop geen auteursrecht meer rust, tenzij er
+      toestemming voor verleend is" (all documents on the site can be downloaded free of
+      charge; they are documents on which no copyright rests any longer, unless permission was
+      given). The page footer carries "© Copyright" with no further text, and the page states
+      no condition on reuse, redistribution, attribution or bulk download. The Bavinck PDFs
+      carry no statement of who scanned them. Bron's use: the four fourth-printing PDFs of the
+      Gereformeerde Dogmatiek (sources.yaml, gd2-vol1-theologienet to gd2-vol4-theologienet),
+      each downloaded once, for the fourth printing's page breaks and the GD² OCR sample test.
+      Committing page images rendered from them waits for this record's confirmation.
