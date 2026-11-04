@@ -2,6 +2,11 @@
 <ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" xmlns:cpt="http://purl.org/capitains/ns/1.0#" xmlns:dc="http://purl.org/dc/elements/1.1/" groupUrn="urn:cts:bron:bavinck" urn="urn:cts:bron:bavinck.gd" xml:lang="nl">
   <ti:title xml:lang="nl">Gereformeerde Dogmatiek</ti:title>
   <ti:title xml:lang="en">Reformed Dogmatics</ti:title>
+  <ti:edition workUrn="urn:cts:bron:bavinck.gd" urn="urn:cts:bron:bavinck.gd.ed1">
+    <ti:label xml:lang="nl">Gereformeerde Dogmatiek, eerste druk (1895–1901)</ti:label>
+    <ti:label xml:lang="en">Reformed Dogmatics, first edition (1895–1901)</ti:label>
+    <ti:description xml:lang="en">The Dutch text of the first edition (Kampen: J. H. Bos, 1895–1901), four volumes, converted from the Project Gutenberg transcriptions. Each page break links to its page in the DBNL scans.</ti:description>
+  </ti:edition>
   <cpt:structured-metadata>
     <dc:creator>Herman Bavinck</dc:creator>
     <dc:language>nl</dc:language>

@@ -20,8 +20,12 @@ jobs:
           # Full history, so the base commit is in the checkout.
           fetch-depth: 0
       # The one pin of bron. Bumping it is its own deliberate pull request.
-      - uses: robertguss/bron/.github/actions/validate-data@a410995c5ae161737902a0895b2337c0f27ccccc
+      - uses: robertguss/bron/.github/actions/validate-data@c911e8f66e42627dc347863b9e5453bbc2dc8e36
         with:
           # A pull request compares with its base branch tip, which branch protection keeps
           # current; a push compares with the commit before it.
           base-ref: ${{ github.event_name == 'pull_request' && github.event.pull_request.base.sha || github.event.before }}
+          # Named citations, one URN=TEXT per line: each must resolve through the resolver to
+          # text beginning TEXT.
+          expect: |
+            urn:cts:bron:bavinck.gd.ed1:3.2=2. Maar de kerk
