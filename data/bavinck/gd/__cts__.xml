@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" xmlns:cpt="http://purl.org/capitains/ns/1.0#" xmlns:dc="http://purl.org/dc/elements/1.1/" groupUrn="urn:cts:bron:bavinck" urn="urn:cts:bron:bavinck.gd" xml:lang="nl">
+  <ti:title xml:lang="nl">Gereformeerde Dogmatiek</ti:title>
+  <ti:title xml:lang="en">Reformed Dogmatics</ti:title>
+  <cpt:structured-metadata>
+    <dc:creator>Herman Bavinck</dc:creator>
+    <dc:language>nl</dc:language>
+  </cpt:structured-metadata>
+</ti:work>

@@ -1,0 +1,8 @@
+# Edition files that alignment links target but a later milestone adds (see bron's
+# docs/roadmap.md). bron check skips targets in these files and counts them; a missing
+# target file that is not listed here fails, so a misspelled filename is never excused.
+deferred:
+  - path: data/bavinck/gd/bavinck.gd.ed1.xml
+    milestone: M1
+  - path: data/bavinck/gd/bavinck.gd.ed2.xml
+    milestone: M3

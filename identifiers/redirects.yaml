@@ -1,0 +1,11 @@
+# Every passage identifier that has left a text, and what it became (Bron ADR 0004).
+# Entries are append-only: bron check fails if an entry on main is changed or removed,
+# and no identifier listed here may be cited again. Each entry is reviewed by the merge
+# of the pull request that adds it.
+#
+#   - urn: urn:cts:bron:<work>.<version>:<passage>
+#     status: redirected          # or retired
+#     replaced_by: [urn:cts:...]  # redirected only; one or more live identifiers
+#     reason: why the identifier left
+#     date: YYYY-MM-DD
+redirects: []

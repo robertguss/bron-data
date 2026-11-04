@@ -14,13 +14,17 @@ data/                      TEI texts, one directory per textgroup, then per work
       bavinck.gd.ed2.xml        second edition (1906–1911), base text of ed2
       bavinck.gd.ed2.bron-eng.xml   Bron's English of ed2
 alignments/                stand-off TEI link files (ADR 0006)
+  deferred.yaml            link targets whose edition files a later milestone adds
+identifiers/               citation history (ADR 0004)
+  redirects.yaml           identifiers that left a text, and what they became (append-only)
+  edits.yaml               declared substantial changes under an unchanged identifier
 lexicon/                   TBX termbase (ADR 0008)
 provenance/                stand-off scores and flags (ADR 0009)
 registry/                  works, source copies, rights statements (ADR 0012)
 segmentation/              SRX rules
 ```
 
-Only `alignments/` has content yet: the GD¹ ↔ GD² structural concordance.
+So far: the textgroup and work metadata for Bavinck's *Gereformeerde Dogmatiek* (no edition files yet), the GD¹ ↔ GD² structural concordance, and the rights registry.
 
 ## Licensing (two kinds of content, two licenses)
 
@@ -31,8 +35,8 @@ Each file states which applies in its TEI header or front matter.
 
 ## Contributing
 
-Open a pull request. Corrections to texts and translations are welcome from anyone; the `reviewed` state can only be set by a vetted reviewer (see `REVIEWERS.md`, to be added with the first release, and ADR 0009 in the `bron` repo). CI will validate TEI, CapiTainS and DTS conformance and refuse changes that break a citation.
+Open a pull request. Corrections to texts and translations are welcome from anyone; the `reviewed` state can only be set by a vetted reviewer (see `REVIEWERS.md`, to be added with the first release, and ADR 0009 in the `bron` repo). CI (`.github/workflows/validate.yml`) is live: every pull request runs bron's checks (TEI, CapiTainS, citation declarations, identifier stability, registry, alignment targets), compares citations with the base commit, and verifies the DTS resolver. A change that would break a citation cannot merge.
 
 ## Status
 
-Design complete; no texts yet. See `bron/docs/roadmap.md`.
+Metadata and registry in place; no texts yet (GD¹ arrives with milestone M1). See `bron/docs/roadmap.md`.

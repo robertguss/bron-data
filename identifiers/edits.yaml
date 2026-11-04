@@ -1,0 +1,11 @@
+# Substantial changes to the text an unchanged identifier points to. bron check fails when a
+# passage's text changes beyond a small correction unless an entry here declares that exact
+# change: the SHA-256 is of the passage's new normalized text, so a declaration covers one
+# change and cannot be reused. Each entry is reviewed by the merge of the pull request that
+# adds it.
+#
+#   - urn: urn:cts:bron:<work>.<version>:<passage>
+#     reason: what changed and why
+#     date: YYYY-MM-DD
+#     sha256: <64 hex characters>
+edits: []
