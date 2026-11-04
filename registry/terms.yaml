@@ -6,7 +6,9 @@ terms:
   - site: Delpher (Koninklijke Bibliotheek)
     terms_url: https://www.delpher.nl/over-delpher/gebruiksvoorwaarden
     checked_on: 2026-11-04
-    status: pending
+    status: confirmed
+    confirmed_by: Robert Guss
+    confirmed_on: 2026-11-04
     summary: >-
       Gebruiksvoorwaarden, "Versie 3 september 2025". Expired copyright: "Wanneer de
       auteursrechten zijn verlopen, mag je het betreffende werk zonder betaling of
@@ -16,42 +18,81 @@ terms:
       bezit de KB databankrecht op de website als geheel. Daarom is voor het gebruik van
       substantiële delen ervan tevens toestemming nodig van de KB" (the KB holds the
       database right in the site as a whole, so using substantial parts of it also needs the
-      KB's permission). Bulk: downloading large numbers of objects that are (possibly) under
-      copyright is not allowed, and the KB monitors misuse. Attribution: crediting the source
-      and www.delpher.nl is "gebruikelijk" (customary), not required. Per-object status
-      labels such as "Auteursrecht onbekend" mean the status has not been evaluated and the
-      reuser must check it.
+      KB's permission); the page gives no threshold for "substantial". Bulk: "Het downloaden
+      van grote aantallen objecten die (mogelijk) auteursrechtelijk beschermd zijn, is niet
+      toegestaan" (downloading large numbers of objects that are, or may be, under copyright
+      is not allowed); "Onder voorwaarden is bulkgebruik van deze objecten wel mogelijk voor
+      wetenschappelijke onderzoeksdoeleinden" (bulk use of these objects is possible on
+      conditions for scientific research, see "Data in Delpher"); the KB monitors misuse and
+      can block access. Attribution: crediting the source and www.delpher.nl is
+      "gebruikelijk" (customary), not required. Status: each object shows whether it is still
+      protected, its copyright has expired, or "dat u hier zelf onderzoek naar kunt doen"
+      (that you can research this yourself); the page does not define individual labels such
+      as "Auteursrecht onbekend". While a work is under copyright: download and print for
+      private use only, plus uses the Auteurswet allows such as quotation; linking is allowed
+      if it sends the reader to Delpher, but embedding or framing protected material needs
+      the rightsholders' permission. Text and data mining: commercial parties may not copy
+      protected works for TDM, including AI-model training, stated as an opt-out under art.
+      15o Auteurswet, art. 4a sub b Databankenwet and art. 4(3) of the CDSM Directive. The
+      same page's FAQ answers "Mag ik de publicaties zelf verder verspreiden?" with "Nee, je
+      mag de boeken niet dupliceren en verder verspreiden. Zowel commerciële als
+      niet-commerciële verspreiding zijn niet toegestaan" (no commercial or non-commercial
+      redistribution), without the formal terms' exception for expired copyright; raise it
+      with the KB before Bron hosts any Delpher page images.
 
   - site: DBNL (Digitale Bibliotheek voor de Nederlandse Letteren, KB)
     terms_url: https://www.dbnl.org/titels/gebruiksvoorwaarden.php?id=bavi002gere01
     checked_on: 2026-11-04
-    status: pending
+    status: confirmed
+    confirmed_by: Robert Guss
+    confirmed_on: 2026-11-04
     summary: >-
-      Title-specific terms for bavi002gere01 (Bavinck, Gereformeerde dogmatiek, 1st edition),
-      shown on the text pages under the label "Mogelijk auteursrechtelijk beschermd" (possibly
-      under copyright), a default label rather than a finding. Work copyright: "Als het
+      Title-specific terms for bavi002gere01 (Bavinck, Gereformeerde dogmatiek, 1st edition,
+      vol. 1); the pages for bavi002gere02, bavi002gere03 and bavi002gere04 (vols. 2 to 4)
+      carry the same label and text. Label: "Mogelijk auteursrechtelijk beschermd" (possibly
+      under copyright); rights may lie with authors, editors, translators and image makers,
+      and different parts of a work can leave copyright at different times. For any use
+      beyond private use and quotation, "onderzoek naar de auteursrechtelijke status nodig"
+      (research into the copyright status is needed); Bron's finding is in sources.yaml:
+      Bavinck died in 1921, so the EU term ended on 1 January 1992. Work copyright: "Als het
       auteursrecht is verlopen, mag je het werk vrij hergebruiken" (once copyright has expired
       the work may be reused freely); protection lasts 70 years after the makers' deaths.
-      While copyright subsists, download and print are for private use only. Database right
-      and bulk, kept separate from the work's copyright: the general terms
-      (https://www.dbnl.org/overdbnl/copyright.php) state that the KB holds the database right
-      in the collection as a whole, so downloading large numbers of works needs the KB's
-      permission, and "Het downloaden van grote aantallen werken is niet toegestaan"
-      (downloading large numbers of works is not permitted); datasets for scientific research
-      are available on conditions. Attribution: "Vermeld hierbij de maker en de originele bron
-      met de toevoeging: 'geraadpleegd via DBNL (KB, nationale bibliotheek)'". Commercial text
-      and data mining of copyrighted works is prohibited. Neither page shows a version date.
-      Bron links to the four volume PDFs and copies nothing from DBNL (ADR 0016).
+      While copyright subsists, download and print are for private use only, but "Je mag wel
+      linken naar het werk vanaf een eigen internetpagina of socialmedia-account" (you may
+      link to the work from your own web page or social media account). Quotation: short
+      passages may be quoted under citaatrecht, naming "de maker en de originele bron met de
+      toevoeging: 'geraadpleegd via DBNL (KB, nationale bibliotheek)'"; the pages set no
+      attribution requirement for reusing a work whose copyright has expired. Broader terms,
+      where a title has them, appear in its verantwoording; the four title pages offer only a
+      scan download and no verantwoording. Database right and bulk, kept separate from the
+      work's copyright: the general terms (https://www.dbnl.org/overdbnl/copyright.php) state
+      that the KB holds the database right in the collection as a whole, so downloading large
+      numbers of works needs the KB's permission, and "Het downloaden van grote aantallen
+      werken is niet toegestaan" (downloading large numbers of works is not permitted);
+      datasets for scientific research are available on conditions. Text and data mining:
+      commercial parties may not copy protected works for TDM, including AI-model training,
+      stated as an opt-out under art. 15o Auteurswet and art. 4(3) of the CDSM Directive.
+      Neither page shows a version date. Bron links to the four volume PDFs, downloaded each
+      once to measure the page map, and copies nothing from DBNL (ADR 0016).
 
   - site: NRI sources site (Neo-Calvinism Research Institute)
     terms_url: https://sources.neocalvinism.org/bavinck/
     checked_on: 2026-11-04
-    status: pending
+    status: confirmed
+    confirmed_by: Robert Guss
+    confirmed_on: 2026-11-04
     summary: >-
       No terms of use, licence, copyright notice or reuse statement was found on the site's
-      pages (checked: the Bavinck page and the site root). The only contact named is Dmytro
-      (Dima) Bintsarovskyi at TU Kampen. Its text of the second edition uses modernised
-      spelling, and its scan PDFs are byte-identical to Delpher's and theologienet's files, so
-      Bron uses it only as a finding aid and copies nothing from it. Absence of terms is not
-      permission: any reuse of the NRI's own transcriptions would need asking first, which
-      ADR 0013 holds until the thin slice is public.
+      pages (checked: the Bavinck page, a user guide to the bibliography and its PDF and HTML
+      views; the site root; the NRI's main site, neocalvinism.org). On a re-check the same
+      day the site root returned no readable content, so only the Bavinck page and
+      neocalvinism.org were read again. The only contact named is Dmytro (Dima)
+      Bintsarovskyi at TU Kampen (dbintsarovskyi@tukampen.nl). Bron's use: its tables of
+      contents are a finding aid, and the GD¹/GD² structure concordance
+      (alignments/bavinck.gd.ed1--ed2.structure.*) takes its GD² section titles and ranges
+      from the NRI "2e druk" listing and partly its GD¹ sections from the "1e druk" listing,
+      crediting the NRI. Those titles are Bavinck's, in the NRI's modernised spelling, and
+      are to be replaced by titles read from the printed second edition when GD² is
+      transcribed. Bron copies no NRI text or scan. Absence of terms is not permission: any
+      reuse of the NRI's own transcriptions or scans would need asking first, which ADR 0013
+      holds until the thin slice is public.
