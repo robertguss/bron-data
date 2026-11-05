@@ -22,6 +22,8 @@ lexicon/                   TBX termbase (ADR 0008)
 provenance/                stand-off scores and flags (ADR 0009)
 registry/                  works, source copies, rights statements (ADR 0012)
 segmentation/              SRX rules
+groundtruth/               human-corrected sample pages, transcription rules and check rounds
+ocr/                       OCR sample manifests, source hashes and run artifacts
 ```
 
 So far: the textgroup and work metadata for Bavinck's *Gereformeerde Dogmatiek*, the first-edition text (`bavinck.gd.ed1.xml`), the GD¹ ↔ GD² structural concordance, and the rights registry.

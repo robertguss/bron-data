@@ -1,0 +1,996 @@
+protocol: bron M2 OCR sample test, protocol 1
+hashes:
+  sources:
+    delpher/MMUBVU05_000000743_00338-image/image.jp2: 82cfe90bb1a0d4decc12dbfcc3574392f4e4274371dff1ddd2324bd9e9e07c02
+    delpher/MMUBVU05_000000743_00338-alto/alto.xml: 5ba08f01ba1797dfef32ea1d2621c60b1e86c27b3ee1d403580a26b2ad4e0a79
+    delpher/MMUBVU05_000000743_00475-image/image.jp2: 0586e3d5db0ecb19ddaa9692ee48077e1b72358a15963f22012647ed215772be
+    delpher/MMUBVU05_000000743_00475-alto/alto.xml: e549d75905d927e11634fc6d99e406a27e01fbccae2b1051eebdac6df2c2b476
+    delpher/MMUBVU05_000000817_00014-image/image.jp2: 8870f866919a1b8c9097d7e57ed0e4e4d17e674fa25aa42965bd1fc2a3001a35
+    delpher/MMUBVU05_000000817_00014-alto/alto.xml: 967c75b78388a9113fc2a421e865e74da9d455856b8def75a6e5c36fa5f81ecf
+    delpher/MMUBVU05_000000817_00017-image/image.jp2: f4c83030543dd245b5a32c9fa2b0f0743d5d04f8c200f77194c257b8bd982279
+    delpher/MMUBVU05_000000817_00017-alto/alto.xml: c190d5093a4126f67a029e2c3b42871f53b1f7334a2ce8ece743202cbfc21acb
+    delpher/MMUBVU05_000000817_00044-image/image.jp2: 13c007cc459b05019835bc1127de420b5dd11b732c364f1c88ef2da3c50fae2d
+    delpher/MMUBVU05_000000817_00044-alto/alto.xml: 4860dc6ac041b06e609ae7ec4b42f930bb487c803e663890a22829376a5bd12e
+    delpher/MMUBVU05_000000817_00081-image/image.jp2: 55293b788b08c1759c9e6910d50104e16323146deccc7a903bb31addb51b78ef
+    delpher/MMUBVU05_000000817_00081-alto/alto.xml: 92b6be575119f3a6c3d8164ecc779934f215c9a258821abb53012bf0933f9495
+    delpher/MMUBVU05_000000818_00291-image/image.jp2: 21cb02830200f5528faa942dbe179d0e1cd23b11eb83a603fd124bdd827e0fa2
+    delpher/MMUBVU05_000000818_00291-alto/alto.xml: ebfda7f24f5d2980561d96542b314e24f58973d7a2a3231aab509129a6d25fbd
+    delpher/MMUBVU05_000000818_00566-image/image.jp2: 534d05276f789e7cc072dd0802504074e4b586991828dabbec4a427bf145eed0
+    delpher/MMUBVU05_000000818_00566-alto/alto.xml: 643450ccbff6b7689122783b7147e1b8074dd9fa286ea1bba76073b2f3b1a058
+    delpher/MMUBVU05_000000819_00508-image/image.jp2: d4cd92fb4546c35119c1660ad9d50bef43c0073d34bebfb75899d21a1a2f3b3e
+    delpher/MMUBVU05_000000819_00508-alto/alto.xml: 114d7c3aafd3e313792dc5413cd707f32790a3f2e52745c3f54f0b47775c0479
+    delpher/MMUBVU05_000000819_00523-image/image.jp2: 8d24ac9248b203b9783599d37e4258565c5ef4b863e48aed9382c4ad6501346e
+    delpher/MMUBVU05_000000819_00523-alto/alto.xml: 7af74d3743f7ed211fce46e35cd3c02665fcb5247c0e2cafa2e5c5864595fbdd
+    delpher/MMUBVU05_000000743-pdf/volume.pdf: 2c0a7c223006d1697321a90c1567793066e93efc62b702d40d50b283c0bd4853
+    delpher/MMUBVU05_000000743-didl/didl.xml: edc49800071a7fc3bf1502bd4b4a9a043c752260773e8b9c40f355fa63a9b1d5
+    delpher/MMUBVU05_000000817-pdf/volume.pdf: beee6ef930f15a654685b5bda027e82c16314c391eb0a34919a13662d0503a58
+    delpher/MMUBVU05_000000817-didl/didl.xml: 898fd0a31dbd2b77cbda7e24854df917e720ffd674167076591fbe504cfe4b73
+    delpher/MMUBVU05_000000818-pdf/volume.pdf: 9749158ae155a77a4b89e139d1a331d8654bd669c1aa793ccf738778721468f1
+    delpher/MMUBVU05_000000818-didl/didl.xml: e77499d9aecd63490cc353e3bde2cfda671c407deb9f7944247f5d2761132079
+    delpher/MMUBVU05_000000819-pdf/volume.pdf: 80857dcd2d09b3a3e539b4e1b6a3abc726f02803931902103d46799844f52a41
+    delpher/MMUBVU05_000000819-didl/didl.xml: 74269ddeffea119f0ac4109f0c889e9b459b9cc9cb8e9d63905513bc643485c5
+    theologienet/gd-i/bavinck-h-gereformeerde-dogmatiek-i.pdf: bbadbd088baf0b87ef3bdc23fff5880689ff51cf0fb2b2793bb31593e216ce43
+    theologienet/gd-ii/bavinck-h-gereformeerde-dogmatiek-ii.pdf: e1f5071d391abaa0bba49570e66be9fbfd85d1f9a69307cbd215ca6fdd4d49fa
+    theologienet/gd-iii/bavinck-h-gereformeerde-dogmatiek-iii.pdf: 791e1415b7bd447b1b83933d4d7d15644cb62140155892e4a62294b55b83f809
+    theologienet/gd-iv/bavinck-h-gereformeerde-dogmatiek-iv.pdf: 0b28dab9650e0b9d89ea592201d17006468c490fe98f48fa8e4b51232ea46e1b
+  committed:
+    groundtruth/README.md: 062234b5ec41222bfa99ae17b2fdfd46eda85e03085a7e26d6ca43ee6eeadb41
+drawn_on: '2026-11-05'
+seed:
+  bron_data_commit: 0738b7815291f93af6d8af610bc207ac3361a6e5
+  value: '41227762681390070182226781591707310702014342885'
+  algorithm: 'rng = random.Random(seed); slice = sorted(rng.sample(sorted(slice_pages), 4)); then for
+    volume in (1, 3, 4): order[volume] = rng.sample(sorted(population[volume]), len(population[volume]));
+    picks are the first two of each order, with the script replacement rule in bron.ocr.sample'
+population:
+  1:
+    delpher: MMUBVU05:000000743
+    scans: 686
+    pages: 670
+    first_page: 1
+    last_page: 670
+    unresolved_scans:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 683
+    - 684
+    - 685
+    - 686
+  2:
+    delpher: MMUBVU05:000000817
+    scans: 688
+    pages: 669
+    first_page: 1
+    last_page: 669
+    unresolved_scans:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 682
+    - 683
+    - 684
+    - 685
+    - 686
+    - 687
+    - 688
+  3:
+    delpher: MMUBVU05:000000818
+    scans: 704
+    pages: 690
+    first_page: 1
+    last_page: 690
+    unresolved_scans:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 701
+    - 702
+    - 703
+    - 704
+  4:
+    delpher: MMUBVU05:000000819
+    scans: 882
+    pages: 815
+    first_page: 1
+    last_page: 815
+    unresolved_scans:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 824
+    - 825
+    - 826
+    - 827
+    - 828
+    - 829
+    - 830
+    - 831
+    - 832
+    - 833
+    - 834
+    - 835
+    - 836
+    - 837
+    - 838
+    - 839
+    - 840
+    - 841
+    - 842
+    - 843
+    - 844
+    - 845
+    - 846
+    - 847
+    - 848
+    - 849
+    - 850
+    - 851
+    - 852
+    - 853
+    - 854
+    - 855
+    - 856
+    - 857
+    - 858
+    - 859
+    - 860
+    - 861
+    - 862
+    - 863
+    - 864
+    - 865
+    - 866
+    - 867
+    - 868
+    - 869
+    - 870
+    - 871
+    - 872
+    - 873
+    - 874
+    - 875
+    - 876
+    - 877
+    - 878
+    - 879
+    - 880
+    - 881
+    - 882
+slice:
+  volume: 2
+  drawn_from: the page with Par. 23's heading to the page before Par. 26 begins
+  first_page: 1
+  last_page: 73
+  pages:
+  - 2
+  - 5
+  - 32
+  - 69
+orders:
+  1:
+    first:
+    - 540
+    - 2
+    - 510
+    - 459
+    - 110
+    - 538
+    - 105
+    - 29
+    - 463
+    - 462
+    - 384
+    - 630
+    - 610
+    - 216
+    - 380
+    - 495
+    - 371
+    - 189
+    - 122
+    - 285
+    - 217
+    - 204
+    - 373
+    - 600
+    - 544
+    - 317
+    - 133
+    - 35
+    - 70
+    - 86
+    - 23
+    - 221
+    - 53
+    - 180
+    - 667
+    - 337
+    - 439
+    - 193
+    - 505
+    - 593
+    - 555
+    - 326
+    note: the rest of each order follows from the seed
+  3:
+    first:
+    - 281
+    - 556
+    note: the rest of each order follows from the seed
+  4:
+    first:
+    - 500
+    - 515
+    note: the rest of each order follows from the seed
+screening:
+- volume: 1
+  page: 540
+  greek: false
+  hebrew: false
+- volume: 1
+  page: 2
+  greek: false
+  hebrew: false
+- volume: 3
+  page: 281
+  greek: false
+  hebrew: false
+- volume: 3
+  page: 556
+  greek: false
+  hebrew: false
+- volume: 4
+  page: 500
+  greek: false
+  hebrew: false
+- volume: 4
+  page: 515
+  greek: false
+  hebrew: false
+  note: Greek on one line only (μυστηριον)
+- volume: 1
+  page: 510
+  greek: false
+  hebrew: false
+- volume: 1
+  page: 459
+  greek: false
+  hebrew: false
+  note: Greek on one line only (Λογος, σαρξ)
+- volume: 1
+  page: 110
+  greek: false
+  hebrew: false
+- volume: 1
+  page: 538
+  greek: false
+  hebrew: false
+  note: Greek on one line only (σπερματα ἀληθειας)
+- volume: 1
+  page: 105
+  greek: false
+  hebrew: false
+- volume: 1
+  page: 29
+  greek: false
+  hebrew: false
+- volume: 1
+  page: 463
+  greek: true
+  hebrew: false
+  note: Greek on six lines of the body
+- volume: 1
+  page: 462
+  greek: false
+  hebrew: false
+- volume: 1
+  page: 384
+  greek: false
+  hebrew: false
+- volume: 1
+  page: 630
+  greek: false
+  hebrew: false
+- volume: 1
+  page: 610
+  greek: false
+  hebrew: false
+- volume: 1
+  page: 216
+  greek: false
+  hebrew: false
+- volume: 1
+  page: 380
+  greek: false
+  hebrew: false
+- volume: 1
+  page: 495
+  greek: false
+  hebrew: false
+- volume: 1
+  page: 371
+  greek: false
+  hebrew: false
+- volume: 1
+  page: 189
+  greek: false
+  hebrew: false
+- volume: 1
+  page: 122
+  greek: true
+  hebrew: false
+  note: Greek on eight lines of the body
+- volume: 1
+  page: 285
+  greek: false
+  hebrew: false
+- volume: 1
+  page: 217
+  greek: false
+  hebrew: false
+- volume: 1
+  page: 204
+  greek: false
+  hebrew: false
+- volume: 1
+  page: 373
+  greek: false
+  hebrew: false
+  note: Greek on one line only
+- volume: 1
+  page: 600
+  greek: false
+  hebrew: false
+- volume: 1
+  page: 544
+  greek: false
+  hebrew: false
+- volume: 1
+  page: 317
+  greek: false
+  hebrew: false
+- volume: 1
+  page: 133
+  greek: false
+  hebrew: false
+- volume: 1
+  page: 35
+  greek: false
+  hebrew: false
+- volume: 1
+  page: 70
+  greek: false
+  hebrew: false
+- volume: 1
+  page: 86
+  greek: false
+  hebrew: false
+- volume: 1
+  page: 23
+  greek: false
+  hebrew: false
+- volume: 1
+  page: 221
+  greek: false
+  hebrew: false
+- volume: 1
+  page: 53
+  greek: false
+  hebrew: false
+- volume: 1
+  page: 180
+  greek: false
+  hebrew: false
+- volume: 1
+  page: 667
+  greek: false
+  hebrew: false
+  note: Greek on two lines only
+- volume: 1
+  page: 337
+  greek: true
+  hebrew: false
+  note: Greek on many lines of the body
+- volume: 1
+  page: 439
+  greek: false
+  hebrew: false
+- volume: 1
+  page: 193
+  greek: false
+  hebrew: false
+- volume: 1
+  page: 505
+  greek: false
+  hebrew: false
+- volume: 1
+  page: 593
+  greek: false
+  hebrew: false
+- volume: 1
+  page: 555
+  greek: false
+  hebrew: false
+- volume: 1
+  page: 326
+  greek: false
+  hebrew: true
+  note: Hebrew on three lines of the body (גוי, עַם, גוים); Greek on one line only
+replacements:
+- script: greek
+  volume: 1
+  replaced: 2
+  by: 463
+  pick: 2
+- script: hebrew
+  volume: 1
+  replaced: 540
+  by: 326
+  pick: 1
+missing_scripts: []
+pages:
+- id: v1-p326
+  volume: 1
+  page: 326
+  print2:
+    scan: 338
+    identifier: MMUBVU05:000000743:00338
+    image:
+      url: https://resolver.kb.nl/resolve?urn=MMUBVU05:000000743:00338:image
+      file: delpher/MMUBVU05_000000743_00338-image/image.jp2
+      size:
+      - 965
+      - 1423
+    alto:
+      url: https://resolver.kb.nl/resolve?urn=MMUBVU05:000000743:00338:alto
+      file: delpher/MMUBVU05_000000743_00338-alto/alto.xml
+      page_size:
+      - 1929
+      - 2845
+    alto_scale: 0.5
+  print4:
+    pdf: theologienet/gd-i/bavinck-h-gereformeerde-dogmatiek-i.pdf
+    predicted_page: 288
+    opening:
+      words: religie van een kerk onbekwaam zijn
+      page: 286
+      score: 100.0
+      ambiguous: false
+    closing:
+      words: en dus ook de reinheid der
+      page: 286
+      score: 100.0
+      ambiguous: false
+    notes:
+    - words: schleiermacher glaub 10 zusatz bitschl rechtf
+      page: 286
+      score: 97.8
+      ambiguous: false
+    - words: orig c cels v aug de
+      page: 286
+      score: 100.0
+      ambiguous: false
+    - words: 3 verg over de beteekenis van
+      page: 286
+      score: 100.0
+      ambiguous: false
+    covering_pages:
+    - 286
+    halves:
+    - page: 286
+      spread: 145
+      side: 0
+      gutter: 984
+    visual_check:
+      by: Claude Opus 5.5 (agent), against the --renders scans
+      'on': '2026-11-05'
+- id: v1-p463
+  volume: 1
+  page: 463
+  print2:
+    scan: 475
+    identifier: MMUBVU05:000000743:00475
+    image:
+      url: https://resolver.kb.nl/resolve?urn=MMUBVU05:000000743:00475:image
+      file: delpher/MMUBVU05_000000743_00475-image/image.jp2
+      size:
+      - 925
+      - 1419
+    alto:
+      url: https://resolver.kb.nl/resolve?urn=MMUBVU05:000000743:00475:alto
+      file: delpher/MMUBVU05_000000743_00475-alto/alto.xml
+      page_size:
+      - 1850
+      - 2837
+    alto_scale: 0.5
+  print4:
+    pdf: theologienet/gd-i/bavinck-h-gereformeerde-dogmatiek-i.pdf
+    predicted_page: 408
+    opening:
+      words: met het getuigenis dat de schrift
+      page: 408
+      score: 100.0
+      ambiguous: false
+    closing:
+      words: maar raken haar hart en een
+      page: 409
+      score: 96.3
+      ambiguous: false
+    notes: []
+    covering_pages:
+    - 408
+    - 409
+    halves:
+    - page: 408
+      spread: 206
+      side: 0
+      gutter: 953
+    - page: 409
+      spread: 206
+      side: 1
+      gutter: 953
+    visual_check:
+      by: Claude Opus 5.5 (agent), against the --renders scans
+      'on': '2026-11-05'
+- id: v2-p002
+  volume: 2
+  page: 2
+  print2:
+    scan: 14
+    identifier: MMUBVU05:000000817:00014
+    image:
+      url: https://resolver.kb.nl/resolve?urn=MMUBVU05:000000817:00014:image
+      file: delpher/MMUBVU05_000000817_00014-image/image.jp2
+      size:
+      - 952
+      - 1424
+    alto:
+      url: https://resolver.kb.nl/resolve?urn=MMUBVU05:000000817:00014:alto
+      file: delpher/MMUBVU05_000000817_00014-alto/alto.xml
+      page_size:
+      - 1903
+      - 2848
+    alto_scale: 0.5
+  print4:
+    pdf: theologienet/gd-ii/bavinck-h-gereformeerde-dogmatiek-ii.pdf
+    predicted_page: 2
+    opening:
+      words: liet begin van haar arbeid staat
+      page: 2
+      score: 93.8
+      ambiguous: false
+    closing:
+      words: god weten reeds de zwakste notie
+      page: 3
+      score: 84.4
+      ambiguous: false
+    notes:
+    - words: yerg ook den catechismus van westminster
+      page: 2
+      score: 97.5
+      ambiguous: false
+    covering_pages:
+    - 2
+    - 3
+    halves:
+    - page: 2
+      spread: 3
+      side: 0
+      gutter: 598
+    - page: 3
+      spread: 3
+      side: 1
+      gutter: 598
+    visual_check:
+      by: Claude Opus 5.5 (agent), against the --renders scans
+      'on': '2026-11-05'
+- id: v2-p005
+  volume: 2
+  page: 5
+  print2:
+    scan: 17
+    identifier: MMUBVU05:000000817:00017
+    image:
+      url: https://resolver.kb.nl/resolve?urn=MMUBVU05:000000817:00017:image
+      file: delpher/MMUBVU05_000000817_00017-image/image.jp2
+      size:
+      - 956
+      - 1414
+    alto:
+      url: https://resolver.kb.nl/resolve?urn=MMUBVU05:000000817:00017:alto
+      file: delpher/MMUBVU05_000000817_00017-alto/alto.xml
+      page_size:
+      - 1911
+      - 2827
+    alto_scale: 0.5
+  print4:
+    pdf: theologienet/gd-ii/bavinck-h-gereformeerde-dogmatiek-ii.pdf
+    predicted_page: 4
+    opening:
+      words: en kanaan krachtens zijne verkiezing en
+      page: 4
+      score: 100.0
+      ambiguous: false
+    closing:
+      words: de gnostiek die reeds voorstond pleegt
+      page: 5
+      score: 100.0
+      ambiguous: false
+    notes: []
+    covering_pages:
+    - 4
+    - 5
+    halves:
+    - page: 4
+      spread: 4
+      side: 0
+      gutter: 601
+    - page: 5
+      spread: 4
+      side: 1
+      gutter: 601
+    visual_check:
+      by: Claude Opus 5.5 (agent), against the --renders scans
+      'on': '2026-11-05'
+- id: v2-p032
+  volume: 2
+  page: 32
+  print2:
+    scan: 44
+    identifier: MMUBVU05:000000817:00044
+    image:
+      url: https://resolver.kb.nl/resolve?urn=MMUBVU05:000000817:00044:image
+      file: delpher/MMUBVU05_000000817_00044-image/image.jp2
+      size:
+      - 964
+      - 1431
+    alto:
+      url: https://resolver.kb.nl/resolve?urn=MMUBVU05:000000817:00044:alto
+      file: delpher/MMUBVU05_000000817_00044-alto/alto.xml
+      page_size:
+      - 1928
+      - 2861
+    alto_scale: 0.5
+  print4:
+    pdf: theologienet/gd-ii/bavinck-h-gereformeerde-dogmatiek-ii.pdf
+    predicted_page: 28
+    opening:
+      words: atheïsme aangeklaagd wijl hij de zedelijke
+      page: 28
+      score: 95.2
+      ambiguous: false
+    closing:
+      words: erkennen dit zelf als zij zeggen
+      page: 29
+      score: 100.0
+      ambiguous: false
+    notes:
+    - words: verg a drews die deutsohe speknlation
+      page: 28
+      score: 94.6
+      ambiguous: false
+    - words: 2 strausz der alte nnd der
+      page: 28
+      score: 92.3
+      ambiguous: false
+    - words: biichner kraft u stoff16 3 70
+      page: 28
+      score: 100.0
+      ambiguous: false
+    covering_pages:
+    - 28
+    - 29
+    halves:
+    - page: 28
+      spread: 16
+      side: 0
+      gutter: 594
+    - page: 29
+      spread: 16
+      side: 1
+      gutter: 594
+    visual_check:
+      by: Claude Opus 5.5 (agent), against the --renders scans
+      'on': '2026-11-05'
+- id: v2-p069
+  volume: 2
+  page: 69
+  print2:
+    scan: 81
+    identifier: MMUBVU05:000000817:00081
+    image:
+      url: https://resolver.kb.nl/resolve?urn=MMUBVU05:000000817:00081:image
+      file: delpher/MMUBVU05_000000817_00081-image/image.jp2
+      size:
+      - 941
+      - 1416
+    alto:
+      url: https://resolver.kb.nl/resolve?urn=MMUBVU05:000000817:00081:alto
+      file: delpher/MMUBVU05_000000817_00081-alto/alto.xml
+      page_size:
+      - 1882
+      - 2831
+    alto_scale: 0.5
+  print4:
+    pdf: theologienet/gd-ii/bavinck-h-gereformeerde-dogmatiek-ii.pdf
+    predicted_page: 60
+    opening:
+      words: versterkt ofschoon sommigen het tegendeel hebben
+      page: 60
+      score: 100.0
+      ambiguous: false
+    closing:
+      words: zich ten slotte nog het zoogenaamde
+      page: 61
+      score: 100.0
+      ambiguous: false
+    notes: []
+    covering_pages:
+    - 60
+    - 61
+    halves:
+    - page: 60
+      spread: 32
+      side: 0
+      gutter: 591
+    - page: 61
+      spread: 32
+      side: 1
+      gutter: 591
+    visual_check:
+      by: Claude Opus 5.5 (agent), against the --renders scans
+      'on': '2026-11-05'
+- id: v3-p281
+  volume: 3
+  page: 281
+  print2:
+    scan: 291
+    identifier: MMUBVU05:000000818:00291
+    image:
+      url: https://resolver.kb.nl/resolve?urn=MMUBVU05:000000818:00291:image
+      file: delpher/MMUBVU05_000000818_00291-image/image.jp2
+      size:
+      - 970
+      - 1420
+    alto:
+      url: https://resolver.kb.nl/resolve?urn=MMUBVU05:000000818:00291:alto
+      file: delpher/MMUBVU05_000000818_00291-alto/alto.xml
+      page_size:
+      - 1940
+      - 2839
+    alto_scale: 0.5
+  print4:
+    pdf: theologienet/gd-iii/bavinck-h-gereformeerde-dogmatiek-iii.pdf
+    predicted_page: 246
+    opening:
+      words: zooals biedermann het principe des christendoms
+      page: 245
+      score: 100.0
+      ambiguous: false
+    closing:
+      words: naar den jezus der bergrede terug
+      page: 246
+      score: 100.0
+      ambiguous: false
+    notes:
+    - words: j lagarde deutsche schriften4 1903
+      page: 246
+      score: 97.1
+      ambiguous: false
+    - words: 2 harnack das wesen des christ
+      page: 246
+      score: 100.0
+      ambiguous: false
+    covering_pages:
+    - 245
+    - 246
+    halves:
+    - page: 245
+      spread: 124
+      side: 1
+      gutter: 570
+    - page: 246
+      spread: 125
+      side: 0
+      gutter: 573
+    visual_check:
+      by: Claude Opus 5.5 (agent), against the --renders scans
+      'on': '2026-11-05'
+- id: v3-p556
+  volume: 3
+  page: 556
+  print2:
+    scan: 566
+    identifier: MMUBVU05:000000818:00566
+    image:
+      url: https://resolver.kb.nl/resolve?urn=MMUBVU05:000000818:00566:image
+      file: delpher/MMUBVU05_000000818_00566-image/image.jp2
+      size:
+      - 931
+      - 1424
+    alto:
+      url: https://resolver.kb.nl/resolve?urn=MMUBVU05:000000818:00566:alto
+      file: delpher/MMUBVU05_000000818_00566-alto/alto.xml
+      page_size:
+      - 1862
+      - 2848
+    alto_scale: 0.5
+  print4:
+    pdf: theologienet/gd-iii/bavinck-h-gereformeerde-dogmatiek-iii.pdf
+    predicted_page: 487
+    opening:
+      words: gansch anders is de meening der
+      page: 486
+      score: 100.0
+      ambiguous: false
+    closing:
+      words: 13 14 enz toch doen diezelfde
+      page: 487
+      score: 100.0
+      ambiguous: false
+    notes: []
+    covering_pages:
+    - 486
+    - 487
+    halves:
+    - page: 486
+      spread: 245
+      side: 0
+      gutter: 632
+    - page: 487
+      spread: 245
+      side: 1
+      gutter: 632
+    visual_check:
+      by: Claude Opus 5.5 (agent), against the --renders scans
+      'on': '2026-11-05'
+- id: v4-p500
+  volume: 4
+  page: 500
+  print2:
+    scan: 508
+    identifier: MMUBVU05:000000819:00508
+    image:
+      url: https://resolver.kb.nl/resolve?urn=MMUBVU05:000000819:00508:image
+      file: delpher/MMUBVU05_000000819_00508-image/image.jp2
+      size:
+      - 950
+      - 1433
+    alto:
+      url: https://resolver.kb.nl/resolve?urn=MMUBVU05:000000819:00508:alto
+      file: delpher/MMUBVU05_000000819_00508-alto/alto.xml
+      page_size:
+      - 1900
+      - 2865
+    alto_scale: 0.5
+  print4:
+    pdf: theologienet/gd-iv/bavinck-h-gereformeerde-dogmatiek-iv.pdf
+    predicted_page: 466
+    opening:
+      words: dan god of christus of de
+      page: 436
+      score: 100.0
+      ambiguous: false
+    closing:
+      words: largiri nisi per verbum et cum
+      page: 437
+      score: 100.0
+      ambiguous: false
+    notes:
+    - words: verg cloppenburg op ii 200 hoornbeek
+      page: 437
+      score: 100.0
+      ambiguous: false
+    - words: 2 müller die symb bücher bl
+      page: 437
+      score: 96.3
+      ambiguous: false
+    covering_pages:
+    - 436
+    - 437
+    halves:
+    - page: 436
+      spread: 220
+      side: 0
+      gutter: 667
+    - page: 437
+      spread: 220
+      side: 1
+      gutter: 667
+    visual_check:
+      by: Claude Opus 5.5 (agent), against the --renders scans
+      'on': '2026-11-05'
+- id: v4-p515
+  volume: 4
+  page: 515
+  print2:
+    scan: 523
+    identifier: MMUBVU05:000000819:00523
+    image:
+      url: https://resolver.kb.nl/resolve?urn=MMUBVU05:000000819:00523:image
+      file: delpher/MMUBVU05_000000819_00523-image/image.jp2
+      size:
+      - 935
+      - 1419
+    alto:
+      url: https://resolver.kb.nl/resolve?urn=MMUBVU05:000000819:00523:alto
+      file: delpher/MMUBVU05_000000819_00523-alto/alto.xml
+      page_size:
+      - 1869
+      - 2837
+    alto_scale: 0.5
+  print4:
+    pdf: theologienet/gd-iv/bavinck-h-gereformeerde-dogmatiek-iv.pdf
+    predicted_page: 480
+    opening:
+      words: vervangen niet alleen carlstadt zwingli socinus
+      page: 449
+      score: 97.9
+      ambiguous: false
+    closing:
+      words: en een onzichtbaar bestanddeel onderscheidde de
+      page: 450
+      score: 100.0
+      ambiguous: false
+    notes:
+    - words: calvijn inst iv 14 13
+      page: 450
+      score: 90.5
+      ambiguous: false
+    - words: 2 bellarminus de sacr in genere
+      page: 450
+      score: 100.0
+      ambiguous: false
+    covering_pages:
+    - 449
+    - 450
+    halves:
+    - page: 449
+      spread: 226
+      side: 1
+      gutter: 577
+    - page: 450
+      spread: 227
+      side: 0
+      gutter: 563
+    visual_check:
+      by: Claude Opus 5.5 (agent), against the --renders scans
+      'on': '2026-11-05'
+bron_commit: 7d3825774e7c0d328bc130a944142f9bed26c8d0
+provenance: Draw, cached fetch and span mapping rerun from bron_commit; existing visual checks retained
+  after exact equality with the checked manifest (excluding visual_check).
+rights:
+  mark: Public Domain Mark 1.0
+  residual_rights: CC0 1.0; see LICENSE-CC0
+  images: Source images remain in the external cache; this manifest grants no scan redistribution permission.
